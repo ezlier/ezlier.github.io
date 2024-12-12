@@ -16,7 +16,7 @@
   <title>
     python入土（3）变量类型 |
     
-    Ezlierの小窝
+    Ezriaの小窝
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CUbuntu%20Mono:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CUbuntu%20Mono:400,400italic,700,700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
@@ -26,20 +26,20 @@
   
 <link rel="stylesheet" href="/css/loader.css">
 
-  <meta name="description" content="整数（int）整数是没有小数部分的数字。在 Python 中，可以直接使用整数进行数学运算，如加法、减法、乘法和除法。例如：  1234a &#x3D; 10b &#x3D; 20c &#x3D; a + bprint(c)  # 输出 30   浮点数（float）浮点数是带有小数部分的数字。同样，也可以对浮点数进行各种数学运算。例如：  1234d &#x3D; 3.14e &#x3D; 2.5f &#x3D; d * eprint(f)  # 输出">
+  <meta name="description" content="整数（int）    整数是没有小数部分的数字。在 Python 中，可以直接使用整数进行数学运算，如加法、减法、乘法和除法。  例如： 1234a &#x3D; 10b &#x3D; 20c &#x3D; a + bprint(c)  # 输出 30    浮点数（float）    浮点数是带有小数部分的数字。同样，也可以对浮点数进行各种数学运算。    例如： 1234d &#x3D; 3.14e &#x3D; 2.5f &#x3D; d * ep">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python入土（3）变量类型">
 <meta property="og:url" content="http://example.com/2024/10/11/python%E5%85%A5%E5%9C%9F%EF%BC%883%EF%BC%89%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/index.html">
-<meta property="og:site_name" content="Ezlierの小窝">
-<meta property="og:description" content="整数（int）整数是没有小数部分的数字。在 Python 中，可以直接使用整数进行数学运算，如加法、减法、乘法和除法。例如：  1234a &#x3D; 10b &#x3D; 20c &#x3D; a + bprint(c)  # 输出 30   浮点数（float）浮点数是带有小数部分的数字。同样，也可以对浮点数进行各种数学运算。例如：  1234d &#x3D; 3.14e &#x3D; 2.5f &#x3D; d * eprint(f)  # 输出">
+<meta property="og:site_name" content="Ezriaの小窝">
+<meta property="og:description" content="整数（int）    整数是没有小数部分的数字。在 Python 中，可以直接使用整数进行数学运算，如加法、减法、乘法和除法。  例如： 1234a &#x3D; 10b &#x3D; 20c &#x3D; a + bprint(c)  # 输出 30    浮点数（float）    浮点数是带有小数部分的数字。同样，也可以对浮点数进行各种数学运算。    例如： 1234d &#x3D; 3.14e &#x3D; 2.5f &#x3D; d * ep">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-10-11T11:36:07.000Z">
-<meta property="article:modified_time" content="2024-10-13T13:02:19.530Z">
-<meta property="article:author" content="Ezlier">
+<meta property="article:modified_time" content="2024-12-12T12:24:51.286Z">
+<meta property="article:author" content="Ezria">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Ezlierの小窝" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="Ezriaの小窝" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/images/icon.png">
@@ -184,7 +184,7 @@
       <div class="article-date wow slideInLeft">
   <a href="/2024/10/11/python%E5%85%A5%E5%9C%9F%EF%BC%883%EF%BC%89%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/" class="article-date-link">
     <time datetime="2024-10-11T11:36:07.000Z" itemprop="datePublished">2024-10-11</time>
-    <time style="display: none;" id="post-update-time">2024-10-13</time>
+    <time style="display: none;" id="post-update-time">2024-12-12</time>
   </a>
 </div>
 
@@ -198,16 +198,20 @@
       
       
         <ol>
-<li>整数（int）<br>整数是没有小数部分的数字。在 Python 中，可以直接使用整数进行数学运算，如加法、减法、乘法和除法。<br>例如：</li>
+<li><h1 id="整数（int）"><a href="#整数（int）" class="headerlink" title="整数（int）"></a>整数（int）</h1></li>
 </ol>
+<p>  整数是没有小数部分的数字。在 Python 中，可以直接使用整数进行数学运算，如加法、减法、乘法和除法。<br>  例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">10</span></span><br><span class="line">b = <span class="number">20</span></span><br><span class="line">c = a + b</span><br><span class="line"><span class="built_in">print</span>(c)  <span class="comment"># 输出 30</span></span><br></pre></td></tr></table></figure>
 
+<hr>
 <ol start="2">
-<li>浮点数（float）<br>浮点数是带有小数部分的数字。同样，也可以对浮点数进行各种数学运算。<br>例如：</li>
+<li><h1 id="浮点数（float）"><a href="#浮点数（float）" class="headerlink" title="浮点数（float）"></a>浮点数（float）</h1></li>
 </ol>
+<p>  浮点数是带有小数部分的数字。同样，也可以对浮点数进行各种数学运算。<br>    例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">d = <span class="number">3.14</span></span><br><span class="line">e = <span class="number">2.5</span></span><br><span class="line">f = d * e</span><br><span class="line"><span class="built_in">print</span>(f)  <span class="comment"># 输出 7.85</span></span><br></pre></td></tr></table></figure>
 
-<p>3.字符串（str）<br>字符串是由字符组成的序列，可以是字母、数字、符号等。在 Python 中，字符串可以用单引号（‘）、双引号（”）或三引号（’‘’ 或”“”）来表示。<br>例如：</p>
+<hr>
+<h1 id="3-字符串（str）"><a href="#3-字符串（str）" class="headerlink" title="3.字符串（str）"></a>3.字符串（str）</h1><p>字符串是由字符组成的序列，可以是字母、数字、符号等。在 Python 中，字符串可以用单引号（‘）、双引号（”）或三引号（’‘’ 或”“”）来表示。<br>例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">g = <span class="string">&#x27;Hello, world!&#x27;</span></span><br><span class="line">h = <span class="string">&quot;Python is great.&quot;</span></span><br><span class="line">i = <span class="string">&#x27;&#x27;&#x27;This is a multi-line</span></span><br><span class="line"><span class="string">string.&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(g)</span><br><span class="line"><span class="built_in">print</span>(h)</span><br><span class="line"><span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure>
 
 <p>可以对字符串进行拼接、切片等操作。</p>
@@ -217,67 +221,54 @@
 <p>切片：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">m = <span class="string">&#x27;Python&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(m[<span class="number">1</span>:<span class="number">4</span>])  <span class="comment"># 输出 yth</span></span><br></pre></td></tr></table></figure>
 
-
-
+<hr>
 <ol start="4">
-<li><p>列表（List）</p>
-</li>
-<li><p>定义和基本概念</p>
-<p>列表是 Python 中最常用的数据类型之一，它是一个有序的可变序列。<br>可以将多个不同类型的数据元素组合在一起，用方括号[]来表示。<br>例如：my_list &#x3D; [1, 2.5, ‘hello’, True]，这个列表包含了一个整数、一个浮点数、一个字符串和一个布尔值。</p>
-</li>
-<li><p>列表的操作<br>索引和切片</p>
-</li>
+<li><h1 id="列表（List）"><a href="#列表（List）" class="headerlink" title="列表（List）"></a>列表（List）</h1><h2 id="定义和基本概念"><a href="#定义和基本概念" class="headerlink" title="定义和基本概念"></a>定义和基本概念</h2><p>列表是 Python 中最常用的数据类型之一，它是一个有序的可变序列。<br>可以将多个不同类型的数据元素组合在一起，用方括号[]来表示。<br>例如：my_list &#x3D; [1, 2.5, ‘hello’, True]，这个列表包含了一个整数、一个浮点数、一个字符串和一个布尔值。</p>
+<h2 id="列表的操作"><a href="#列表的操作" class="headerlink" title="列表的操作"></a>列表的操作</h2><h3 id="索引和切片"><a href="#索引和切片" class="headerlink" title="索引和切片"></a>索引和切片</h3></li>
 </ol>
 <p>列表中的每个元素都有一个索引，索引从 0 开始。可以通过索引来访问列表中的元素，例如：my_list[0]将返回列表中的第一个元素 1。</p>
 <p>切片操作可以获取列表中的一部分元素。语法是my_list[start:stop:step]，其中start是起始索引（包含），stop是结束索引（不包含），step是步长。例如：my_list[1:3]将返回[2.5, ‘hello’]；my_list[::2]将返回[1, ‘hello’]（从第一个元素开始，每隔一个元素取一个）。</p>
-<p>添加元素</p>
-<p>可以使用append()方法在列表的末尾添加一个元素。例如：</p>
+<h3 id="添加元素"><a href="#添加元素" class="headerlink" title="添加元素"></a>添加元素</h3><p>可以使用append()方法在列表的末尾添加一个元素。例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">my_list = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">my_list.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(my_list)  </span><br><span class="line"><span class="comment">#输出 [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
 
 <p>也可以使用insert()方法在指定位置插入一个元素。语法是my_list.insert(index, element)，例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">my_list = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">my_list.insert(<span class="number">1</span>, <span class="string">&#x27;new&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(my_list)  </span><br><span class="line"><span class="comment"># 输出 [1,&quot;new,2,3]&quot;</span></span><br></pre></td></tr></table></figure>
 
-<ul>
-<li><strong>删除元素</strong></li>
-</ul>
-<p>使用remove()方法可以删除列表中指定的元素。例如</p>
+<h3 id="删除元素"><a href="#删除元素" class="headerlink" title="删除元素"></a>删除元素</h3><p>使用remove()方法可以删除列表中指定的元素。例如</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">my_list = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">my_list.remove(<span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(my_list)  </span><br><span class="line"><span class="comment">#输出 [1, 3]</span></span><br></pre></td></tr></table></figure>
 
 <p>还可以使用pop()方法删除指定索引位置的元素，并返回被删除的元素。例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">my_list = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">popped_element = my_list.pop(<span class="number">1</span>)</span><br><span class="line"><span class="built_in">print</span>(popped_element)  </span><br><span class="line"><span class="comment"># 输出 2</span></span><br><span class="line"><span class="built_in">print</span>(my_list)  </span><br><span class="line"><span class="comment"># 输出 [1, 3]</span></span><br></pre></td></tr></table></figure>
 
 <ol start="3">
-<li>列表的排序和反转<br>sort()方法可以对列表中的元素进行排序。如果列表中的元素是数字，将按照数字大小排序；如果是字符串，将按照字母顺序排序。例如：</li>
+<li><h2 id="列表的排序和反转"><a href="#列表的排序和反转" class="headerlink" title="列表的排序和反转"></a>列表的排序和反转</h2></li>
 </ol>
+<p>  sort()方法可以对列表中的元素进行排序。如果列表中的元素是数字，将按照数字大小排序；如果是字符串，将按照字母顺序排序。例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">num_list = [<span class="number">3</span>, <span class="number">1</span>, <span class="number">4</span>, <span class="number">1.5</span>]</span><br><span class="line">num_list.sort()</span><br><span class="line"><span class="built_in">print</span>(num_list)  </span><br><span class="line"><span class="comment">#输出 [1, 1.5, 3, 4]</span></span><br></pre></td></tr></table></figure>
 
 
 <p>reverse()方法可以反转列表中元素的顺序。例如：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">my_list = [1, 2, 3]</span><br><span class="line">my_list.reverse()</span><br><span class="line">print(my_list)  </span><br><span class="line"></span><br><span class="line"># 输出 [3, 2, 1]</span><br></pre></td></tr></table></figure>
 
-
-
+<hr>
 <ol start="5">
-<li>元组（Tuple）</li>
-<li>定义和基本概念<br>元组是有序的不可变序列，用圆括号()来表示。例如：my_tuple&#x3D;(1, 2.5,<br>‘hello’)。一旦元组被创建，其元素不能被修改、添加或删除。</li>
-<li>元组的操作<br>索引和切片</li>
+<li><h1 id="元组（Tuple）"><a href="#元组（Tuple）" class="headerlink" title="元组（Tuple）"></a>元组（Tuple）</h1><h2 id="定义和基本概念-1"><a href="#定义和基本概念-1" class="headerlink" title="定义和基本概念"></a>定义和基本概念</h2><p>元组是有序的不可变序列，用圆括号()来表示。例如：my_tuple&#x3D;(1, 2.5,<br>‘hello’)。一旦元组被创建，其元素不能被修改、添加或删除。</p>
+<h2 id="元组的操作"><a href="#元组的操作" class="headerlink" title="元组的操作"></a>元组的操作</h2><h3 id="索引和切片-1"><a href="#索引和切片-1" class="headerlink" title="索引和切片"></a>索引和切片</h3></li>
 </ol>
 <p>与列表类似，元组中的元素也有索引，从 0 开始。可以通过索引访问元组中的元素，如my_tuple[0]将返回 1。</p>
 <p>也可以进行切片操作，语法和列表相同。例如：my_tuple[1:3]将返回(2.5, ‘hello’)。</p>
 <p>元组的优点<br>由于元组是不可变的，所以在处理一些不希望被修改的数据时非常有用。例如，函数返回多个值时，可以将这些值包装成一个元组返回，保证数据的完整性和一致性。例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">def get_info():</span><br><span class="line">    name = &quot;Alice&quot;</span><br><span class="line">    age = 25</span><br><span class="line">    return (name, age)</span><br><span class="line">info = get_info()</span><br><span class="line">print(info[0])  </span><br><span class="line"></span><br><span class="line"># 输出Alice</span><br><span class="line"></span><br><span class="line">print(info[1])  </span><br><span class="line"></span><br><span class="line"># 输出25</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">get_info</span>():</span><br><span class="line">    name = <span class="string">&quot;Alice&quot;</span></span><br><span class="line">    age = <span class="number">25</span></span><br><span class="line">    <span class="keyword">return</span> (name, age)</span><br><span class="line">info = get_info()</span><br><span class="line"><span class="built_in">print</span>(info[<span class="number">0</span>])  </span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出Alice</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(info[<span class="number">1</span>])  </span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出25</span></span><br></pre></td></tr></table></figure>
 
-
-
+<hr>
 <ol start="6">
-<li>字典（Dictionary）</li>
-<li>定义和基本概念<br>字典是一种无序的可变容器数据类型，它以键 - 值（key - value）对的形式存储数据。用花括号{}来表示。例如：my_dict &#x3D;<br>{‘name’: ‘Alice’, ‘age’: 25, ‘city’: ‘New<br>York’}，其中’name’、‘age’、’city’是键，‘Alice’、25、’New York’是对应的值。</li>
-<li>字典的操作<br>访问和修改值</li>
+<li><h1 id="字典（Dictionary）"><a href="#字典（Dictionary）" class="headerlink" title="字典（Dictionary）"></a>字典（Dictionary）</h1><h2 id="定义和基本概念-2"><a href="#定义和基本概念-2" class="headerlink" title="定义和基本概念"></a>定义和基本概念</h2><p>字典是一种无序的可变容器数据类型，它以键 - 值（key - value）对的形式存储数据。用花括号{}来表示。例如：my_dict &#x3D;{‘name’: ‘Alice’, ‘age’: 25, ‘city’: ‘NewYork’}，</p>
+<p>其中’name’、‘age’、’city’是键，‘Alice’、25、’New York’是对应的值。字典的操作<br>访问和修改值</p>
+</li>
 </ol>
 <p>可以通过键来访问字典中的值，例如：my_dict[‘name’]将返回’Alice’。</p>
 <p>修改值也很简单，例如：my_dict[‘age’] &#x3D; 26，此时字典中的年龄值就被修改为 26。</p>
-<p>添加和删除键 - 值对</p>
-<p>添加键 - 值对可以直接通过赋值操作来完成。例如：my_dict[‘job’] &#x3D; ‘Engineer’，此时字典中就添加了一个新的键 - 值对’job’: ‘Engineer’。</p>
+<h2 id="添加和删除键-值对"><a href="#添加和删除键-值对" class="headerlink" title="添加和删除键 - 值对"></a>添加和删除键 - 值对</h2><p>添加键 - 值对可以直接通过赋值操作来完成。例如：my_dict[‘job’] &#x3D; ‘Engineer’，<br>此时字典中就添加了一个新的键 - 值对’job’: ‘Engineer’。</p>
 <p>删除键 - 值对可以使用del关键字。例如：del my_dict[‘city’]，这样就删除了’city’这个键以及对应的’NewYork’这个值。</p>
 <p>遍历字典</p>
 <p>可以使用for循环来遍历字典的键。例如：</p>
@@ -353,20 +344,20 @@
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%EF%BC%88int%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">整数（int）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%AE%E7%82%B9%E6%95%B0%EF%BC%88float%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">浮点数（float）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88str%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">3.字符串（str）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%EF%BC%88List%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">列表（List）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%E5%92%8C%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">4.1.</span> <span class="toc-text">定义和基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">4.2.</span> <span class="toc-text">列表的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95%E5%92%8C%E5%88%87%E7%89%87"><span class="toc-number">4.2.1.</span> <span class="toc-text">索引和切片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%85%83%E7%B4%A0"><span class="toc-number">4.2.2.</span> <span class="toc-text">添加元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0"><span class="toc-number">4.2.3.</span> <span class="toc-text">删除元素</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E7%9A%84%E6%8E%92%E5%BA%8F%E5%92%8C%E5%8F%8D%E8%BD%AC"><span class="toc-number">4.3.</span> <span class="toc-text">列表的排序和反转</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%83%E7%BB%84%EF%BC%88Tuple%EF%BC%89"><span class="toc-number">5.</span> <span class="toc-text">元组（Tuple）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%E5%92%8C%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5-1"><span class="toc-number">5.1.</span> <span class="toc-text">定义和基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%83%E7%BB%84%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">5.2.</span> <span class="toc-text">元组的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95%E5%92%8C%E5%88%87%E7%89%87-1"><span class="toc-number">5.2.1.</span> <span class="toc-text">索引和切片</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%97%E5%85%B8%EF%BC%88Dictionary%EF%BC%89"><span class="toc-number">6.</span> <span class="toc-text">字典（Dictionary）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%E5%92%8C%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5-2"><span class="toc-number">6.1.</span> <span class="toc-text">定义和基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%92%8C%E5%88%A0%E9%99%A4%E9%94%AE-%E5%80%BC%E5%AF%B9"><span class="toc-number">6.2.</span> <span class="toc-text">添加和删除键 - 值对</span></a></li></ol></li></ol>
       
   </div>
 </div>
 </div>
       <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
-  <img data-src="/avatar/Image_1728032193373.jpg" data-sizes="auto" alt="Ezlier" class="lazyload">
-  <div class="sidebar-author-name">Ezlier</div>
-  <div class="sidebar-description">飞舞没用天天想摸鱼</div>
+  <img data-src="/avatar/Image_1728032193373.jpg" data-sizes="auto" alt="Ezria" class="lazyload">
+  <div class="sidebar-author-name">Ezria</div>
+  <div class="sidebar-description">早好中午好晚上好！</div>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">6</div>
+    <div class="sidebar-state-number">7</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -432,7 +423,7 @@
       <span class="icon-copyright"></span>
       2020-2024
       <span class="footer-info-sep"></span>
-      Ezlier
+      Ezria
     </div>
     
       <div>
@@ -443,10 +434,10 @@
     
       <div>
         <span class="icon-brush"></span>
-        3.7k
+        4.1k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:13
+        00:14
       </div>
     
     
@@ -474,20 +465,20 @@
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%EF%BC%88int%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">整数（int）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B5%AE%E7%82%B9%E6%95%B0%EF%BC%88float%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">浮点数（float）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88str%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">3.字符串（str）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%EF%BC%88List%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">列表（List）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%E5%92%8C%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">4.1.</span> <span class="toc-text">定义和基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">4.2.</span> <span class="toc-text">列表的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95%E5%92%8C%E5%88%87%E7%89%87"><span class="toc-number">4.2.1.</span> <span class="toc-text">索引和切片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%85%83%E7%B4%A0"><span class="toc-number">4.2.2.</span> <span class="toc-text">添加元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0"><span class="toc-number">4.2.3.</span> <span class="toc-text">删除元素</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E7%9A%84%E6%8E%92%E5%BA%8F%E5%92%8C%E5%8F%8D%E8%BD%AC"><span class="toc-number">4.3.</span> <span class="toc-text">列表的排序和反转</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%83%E7%BB%84%EF%BC%88Tuple%EF%BC%89"><span class="toc-number">5.</span> <span class="toc-text">元组（Tuple）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%E5%92%8C%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5-1"><span class="toc-number">5.1.</span> <span class="toc-text">定义和基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%83%E7%BB%84%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">5.2.</span> <span class="toc-text">元组的操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95%E5%92%8C%E5%88%87%E7%89%87-1"><span class="toc-number">5.2.1.</span> <span class="toc-text">索引和切片</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%97%E5%85%B8%EF%BC%88Dictionary%EF%BC%89"><span class="toc-number">6.</span> <span class="toc-text">字典（Dictionary）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%E5%92%8C%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5-2"><span class="toc-number">6.1.</span> <span class="toc-text">定义和基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%92%8C%E5%88%A0%E9%99%A4%E9%94%AE-%E5%80%BC%E5%AF%B9"><span class="toc-number">6.2.</span> <span class="toc-text">添加和删除键 - 值对</span></a></li></ol></li></ol>
       
   </div>
 </div>
 </div>
       <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
-  <img data-src="/avatar/Image_1728032193373.jpg" data-sizes="auto" alt="Ezlier" class="lazyload">
-  <div class="sidebar-author-name">Ezlier</div>
-  <div class="sidebar-description">飞舞没用天天想摸鱼</div>
+  <img data-src="/avatar/Image_1728032193373.jpg" data-sizes="auto" alt="Ezria" class="lazyload">
+  <div class="sidebar-author-name">Ezria</div>
+  <div class="sidebar-description">早好中午好晚上好！</div>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">6</div>
+    <div class="sidebar-state-number">7</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>

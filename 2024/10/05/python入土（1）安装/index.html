@@ -221,6 +221,11 @@
     <footer class="article-footer">
       
       
+        <a href="/2024/10/05/python%E5%85%A5%E5%9C%9F%EF%BC%881%EF%BC%89%E5%AE%89%E8%A3%85/#comments" class="article-comment-link">
+          <span class="post-comments-count valine-comment-count" data-xid="/2024/10/05/python%E5%85%A5%E5%9C%9F%EF%BC%881%EF%BC%89%E5%AE%89%E8%A3%85/" itemprop="commentCount"></span>
+          留言
+        </a>
+      
       
       
       
@@ -268,6 +273,8 @@
   
 </article>
 
+  <section id="comments" class="vcomment"></section>
+
 
 
 
@@ -295,7 +302,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -375,7 +382,7 @@
         4.1k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:14
+        00:15
       </div>
     
     
@@ -416,7 +423,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -526,6 +533,34 @@
   }
 </script>
 
+
+  
+<script src="https://npm.webcache.cn/valine@1.5.1/dist/Valine.min.js" data-pjax></script>
+
+  <script data-pjax>
+    var GUEST_INFO = ['nick', 'mail', 'link'];
+    var guest_info = 'nick,mail,link'.split(',').filter((item) => {
+      return GUEST_INFO.indexOf(item) > -1
+    });
+    var recordIP = JSON.parse('true');
+    var highlight = JSON.parse('true');
+    var visitor = JSON.parse('false');
+
+    new Valine({
+      el: '.vcomment',
+      appId: "BWruHrX92bZUvPX2h6LtzXej-gzGzoHsz# leancloud application app id",
+      appKey: "FGhiJAPtFaegR5Th3SIIokHc# leancloud application app key",
+      placeholder: "Just go go",
+      pageSize: '10',
+      avatar: 'mp',
+      lang: 'zh-cn',
+      recordIP: recordIP,
+      highlight: highlight,
+      visitor: visitor,
+      requiredFields: guest_info,
+      path: window.location.pathname
+    });
+  </script>
 
 
 
